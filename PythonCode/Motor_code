@@ -1,0 +1,7 @@
+from gpiozero import Motor
+
+motor = Motor(17, 18)
+motor.forward()
+
+# motor.backward(speed=1)
+# motor.stop()

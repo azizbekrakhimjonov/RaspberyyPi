@@ -1,0 +1,5 @@
+from gpiozero import *
+with Buzzer(16) as bz:
+    bz.on()
+with LED(16) as led:
+    led.on()

@@ -1,0 +1,5 @@
+from gpiozero import RGBLED
+from colorzero import Color
+
+led = RGBLED(2, 3, 4)
+led.color = Color('yellow')
