@@ -4,6 +4,6 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-pip install <package>
+pip3 install gpiozero
 
 deactivate
